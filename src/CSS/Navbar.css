@@ -1,0 +1,92 @@
+nav{
+    width: 100%;
+    text-align: center;
+    display: grid;
+    grid-template-rows: 100px;
+    grid-template-columns: 25% 20% 20%;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   font-weight: 400;
+}
+.Nav_child1{
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+.Nav_child2{
+    grid-column: 2/4;
+    grid-row: 1/2;
+}
+.Nav_child3{
+    grid-column: 4/6;
+    grid-row: 1/2;
+}
+.Nav_child4{
+    grid-column: 4/6;
+    grid-row: 1/2;
+}
+
+ul .Nav_child2_ul_li {
+    display: block;
+    position: relative;
+ }
+ul .Nav_child2_ul_li::before{
+    position: absolute;
+    height: 60%;
+    content: "";
+    top: 0%;
+    left:50%;
+    border-right:3px solid transparent ;
+ }
+ul .Nav_child2_ul_li:hover:before{
+  border-color: #fff;
+ }
+ nav .Nav_child4{
+    visibility: hidden;
+ }
+
+ .active::before{
+    height: 40%;
+    content: "";
+    top: 0%;
+    border-left:3px solid white;
+    position: absolute;
+ }
+
+@media (max-width: 991px){
+
+    nav  .Nav_child2, .Nav_child3{
+        visibility:hidden;
+    } 
+    nav .Nav_child4{
+        visibility: visible;
+    }  
+ 
+} 
+
+
+.navbar_menu{
+    width: 100%;
+    height: 1500px;
+    position: absolute;
+    animation-name: example;
+    animation-duration: 3s;
+    opacity: 0.97;
+  }
+  
+  @keyframes example {
+    0%   {left: -100%; top:0px;}
+    30%  {left: 0%;  top:0px;}
+  }
+
+  .navbar_menu_bar{
+    width: 100%;
+    height: 1000px;
+    position: absolute;
+    animation-name: closing;
+    animation-duration: 3s;
+    opacity: 0.97;
+  }
+  
+  @keyframes closing {
+    0%   {left: 0%; top:0px;}
+    30%  {left: -100%;  top:0px;}
+  }

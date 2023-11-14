@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@media (max-width: 500px){
+.App_main_container{
+    /* width: max-content;
+    text-align: center; */
+}
+}
+@media (min-width: 500px){
+    .App_main_container{
+        width: fit-content;
+    }
+    }
+
+    html,body {
+        overflow-x: hidden;
+    }

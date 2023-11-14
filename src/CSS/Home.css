@@ -1,0 +1,576 @@
+.div1_container{
+    background-image: url("../Images/home_slider1.jpg");
+    background-repeat: no-repeat; 
+    background-size: 100% 100%;
+}
+
+.div1_container h1{
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.child_underline :hover{
+    border-bottom: 2px solid white;
+}
+.sildemain .sidetextbar{
+    font-weight: 500;
+    color: rgb(219, 215, 215);
+    opacity: 0.9;
+    font-family: serif;
+}
+.sildemain .sidetextbar:hover{
+    color: white;
+    opacity: 100px;
+}
+.sildemain1{
+    width: max-content;
+    position: relative;
+}
+.sildemain1::after{
+    content: "";
+    position: absolute;
+    width: 0%;
+    border-bottom: 2px solid white;
+    margin: -7% 0px 0px 17%;
+    transition:width 0.3s ease;
+}
+.sildemain1:hover:after{
+    width: 100%;
+}
+.sildemain2{
+    width: max-content;
+    position: relative;
+}
+.sildemain2::after{
+    content: "";
+    position: absolute;
+    width: 0%;
+    border-bottom: 2px solid white;
+    margin: -7% 0px 0px 1%;
+    transition:width 0.3s ease;
+}
+.sildemain2:hover:after{
+    width: 100%;
+}
+.sildemain3{
+    width: max-content;
+    position: relative;
+}
+.sildemain3::after{
+    content: "";
+    position: absolute;
+    width: 0%;
+    border-bottom: 2px solid white;
+    margin: -7% 0px 0px 20%;
+    transition:width 0.3s ease;
+}
+.sildemain3:hover:after{
+    width: 100%;
+}
+.Search_bar_main{
+    z-index: 0;
+    position: absolute;
+    margin: -18% 0px 0px 9%;
+    width: 80%;
+    height: 200px;
+    background-color: rgb(247, 253, 253,0.3);
+    border-radius: 10px;
+    padding-top:3%;
+}
+.Search_bar_h1_contant{
+    text-align: center;
+    padding-top: 10px;
+    width: 25%;
+    height: 70px;
+    background-color: white;
+    border-radius: 15px;
+    margin: 0% auto;
+}
+.Search_form_container{
+    width: 90%;
+    height: 70px;
+    margin: -2% auto;
+    background-color: white;
+    display: flex;
+    gap: 2%;
+}
+.Search_bar_hr{
+    visibility: hidden;
+}
+.homeIntroduction{
+    width: 100%;
+    height: 300px;
+}
+.homeIntroduction_div1{
+    background-image: url(../Images/home_slider2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.homeIntroduction_container{
+    width: 83%;
+    height: 240px;
+    margin: 0% auto;
+    padding-top: 9.5%;
+    display: grid;
+    grid-template-rows: 100%;
+    grid-template-columns: 30% 30% 30%;
+    gap: 5%;
+}
+.Destinations_main{
+    margin:10% auto;
+    width: 90%;
+    height: 900px;
+} 
+.Destinations_main h3{
+  text-align: center;
+    color: gray;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.Destinations_main h1{
+    text-align: center;
+    font-size: 35px;
+    font-weight: 500;
+    margin-top: 2%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.Destinations_main_sub_Containter{
+    width: 80%;
+    margin: 6% auto;
+    display: grid;
+    grid-template-rows:330px 330px;
+    grid-template-columns: 31% 31% 31%; 
+    gap: 5%;
+}
+.Destinations_main_sub_Containter .card1{
+        grid-row: 1/2;
+        grid-column: 1/2;
+}
+.Destinations_main_sub_Containter .card2{
+    grid-row: 1/2;
+    grid-column: 2/3;
+}
+.Destinations_main_sub_Containter .card3{
+    grid-row: 1/2;
+    grid-column: 3/4;
+}
+.Destinations_main_sub_Containter .card4{
+    grid-row: 2/3;
+    grid-column: 1/2;
+}
+.Destinations_main_sub_Containter .card5{
+    grid-row: 2/3;
+    grid-column: 2/3;
+}
+.Destinations_main_sub_Containter .card6{
+    grid-row: 2/3;
+    grid-column: 3/4;
+}
+.SectionTestimonials_container{
+    margin-top: -5%;
+    width: 100%;
+    height: 500px;
+    background-image: url("../Images/testimonials.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.SectionTestimonials_container{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.SectionTestimonials_container h{
+    margin-top: 10%;
+    color:rgb(246, 244, 241);
+    font-size: 13px;
+    font-family: sans-serif;
+}
+.SectionTestimonials_container h1{
+    margin-top: 1%;
+    color:white;
+    font-size: 40px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.SectionTestimonials_container h3{
+    margin-top: 4%;
+    color:white;
+    font-size: 30px;
+    font-weight: 400;
+    font-style:italic ;
+}
+.SectionTestimonials_container h4{
+    color:white;
+    font-size: 15px;
+    font-weight: 600;
+    display: flex;
+    margin: 5% auto;
+    cursor: pointer;
+}
+.SectionTestimonials_container h4 p{
+    color:white;
+    font-size: 12px;
+    font-weight: 500;
+    margin: 3% 0px 0px 5px;
+}
+.SectionDiscount_container{
+    width: 90%;
+    height: 750px;
+    margin: 0% auto;
+    display: grid;
+    grid-template-rows: 170px 170px 170px;
+    grid-template-columns: 64% 30%;
+    padding-top: 9%;
+    gap: 5%;
+   
+}
+.SectionDiscount_Child1{
+    grid-row: 1/2;
+    grid-column: 1/2;
+    display: grid;
+    grid-template-rows: 100%;
+    grid-template-columns: 35% 60%;
+    gap: 5%;
+}
+.SectionDiscount_Child2{
+    grid-row: 2/3;
+    grid-column: 1/2;
+    display: grid;
+    grid-template-rows: 100%;
+    grid-template-columns: 35% 60%;
+    gap: 5%;
+    
+}
+.SectionDiscount_Child3{
+    grid-row: 3/4;
+    grid-column: 1/2;
+    display: grid;
+    grid-template-rows: 100%;
+    grid-template-columns: 35% 60%;
+    gap: 5%;
+}
+.SectionDiscount_Child4{
+    grid-row: 1/4;
+    grid-column: 2/3;
+    margin: 0% 0px 0px -4%; 
+    height: 550px; 
+    background-image: url('../Images/home_slider4.4.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+}
+.SectionDiscount_Child_sub2 h1{
+        font-size: 30px;
+        font-family: monospace;
+        margin-top: -2%;
+}
+.SectionDiscount_Child_sub2 h1 h{
+    font-size: 14px;
+    margin: 5% 0px 0px 3px;
+    font-weight: 400;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif New Roman;
+    color: GRAY;
+}
+.SectionDiscount_Child_sub2 h2{
+    font-size: 24PX;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.SectionDiscount_Child_sub2 h5{
+    font-size: 12px;
+    margin-top: -1%;
+    font-weight: 400;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif New Roman;
+    color: GRAY;
+}
+.SectionDiscount_Child_sub2 p{
+    font-size: 15px;
+    margin-top: 5%;
+    font-weight: 400;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif New Roman;
+    color: rgb(76, 72, 72);
+}
+.SectionDiscount_Child4_child1{
+    position: absolute;
+    width: 28%;
+    height: 260px;
+    margin-top: -2%;
+    background: rgba(43, 129, 203, 0.7);
+    clip-path: polygon(70% 30%,280% 100%,0 100%,0% 10%)
+}
+.SectionDiscount_Child4_child2{
+    width: 100%;
+    height: 240px;
+    /* margin-top: 6%; */
+    background: rgba(234, 9, 95, 0.8);
+    clip-path: polygon(100% 0%,100% 100%,0% 100%,0% 30%)
+}
+.SectionDiscount_Child4_child2 h1{
+    font-size: 35px;
+    width: 60%;
+
+   font-weight: 700;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   color: white;
+}
+.SectionDiscount_Child4_child2 h3{
+    font-size: 14px;
+    text-align: center;
+    color: white;
+    font-weight: 700;
+    font-family: sans-serif;
+
+}
+
+@media (max-width:1200px) {
+    .SectionDiscount_container{
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        height: 1700px;
+    }
+    .SectionDiscount_Sub_Child{
+        height: 267px;
+    }
+    .SectionDiscount_Child4_child1{
+        width: 83%;
+        height: 310px;
+    }
+    .SectionDiscount_Child4_child2{
+        height: 285px;
+    }
+    .SectionDiscount_Child4_child2 .SectionDiscount_h1{
+        margin: 6% 0px 0px 41%;
+    }
+    .SectionDiscount_Child4_child2 .SectionDiscount_h2{
+        margin: 1% 0px 0px 42%;
+    }
+}
+@media (max-width:1000px){
+    .SectionDiscount_container{
+        height: 1500px;
+    }
+    .SectionDiscount_Child4_child1{
+        width: 83%;
+        height: 300px;
+    }
+    .SectionDiscount_Child4_child2 .SectionDiscount_h1{
+        margin: 9% 0px 0px 41%;
+    } 
+    .Destinations_main{
+        width: 90%;
+        height: 1100px;
+    } 
+    .Destinations_main_sub_Containter{
+        width: 80%;
+        margin: 6% auto;
+        display: grid;
+        grid-template-rows:300px 300px 300px;
+        grid-template-columns: 45% 45%; 
+        gap: 5%;
+    }
+    .Destinations_main_sub_Containter .card1{
+        grid-row: 1/2;
+        grid-column: 1/2;
+    }
+.Destinations_main_sub_Containter .card2{
+    grid-row: 1/2;
+    grid-column: 2/3;
+}
+.Destinations_main_sub_Containter .card3{
+    grid-row: 2/3;
+    grid-column: 1/2;
+}
+.Destinations_main_sub_Containter .card4{
+    grid-row: 2/3;
+    grid-column: 2/3;
+}
+.Destinations_main_sub_Containter .card5{
+    grid-row: 3/4;
+    grid-column:1/2;
+}
+.Destinations_main_sub_Containter .card6{
+    grid-row: 3/4;
+    grid-column: 2/3;
+}
+.SectionTestimonials_container{
+    margin-top: 15%;
+}
+.homeIntroduction_div1{
+    visibility: hidden;
+}
+.homeIntroduction{
+    height: 450px;
+}
+.homeIntroduction_container{
+    width: 100%;
+    height: 450px;
+    margin: 0% auto;
+    display: grid;
+    grid-template-rows: 120px 120px 120px;
+    grid-template-columns: 100%;
+    font-size: 80px;
+    font-weight: 500;
+}
+.Search_bar_main{
+    z-index: 0;
+    position: relative;
+    margin: 0% 0px 0px 9%;
+    width: 80%;
+    height: 490px;
+    background-color: rgb(247, 253, 253,0.3);
+    border-radius: 10px;
+    padding-top:3%;
+}
+.Search_bar_hr{
+    visibility: visible;
+    margin-top: 8%;
+}
+.Search_form_container{
+    width: 80%;
+    height: 380px;
+    margin: -2% auto;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 5%;
+}
+.Search_form_container input{
+    width: 100%;
+    height: 80px;
+}
+.div1_container_ul_bar{
+    margin:50% 0px 0px 80%;
+}
+.div1_container_h1{
+    margin: 30% 0px 0px 10%;
+}
+.Card1_button{
+    width: 20%;
+    margin-top: -20%;
+}
+}
+@media (max-width:700px){
+    .SectionDiscount_container{
+        height: 1500px;
+    }
+
+    .SectionDiscount_Child4_child1{
+        width: 83%;
+        height: 290px;
+    }
+    .SectionDiscount_Child4_child2{
+        height: 285px;
+    }
+    .SectionDiscount_Child4_child2 .SectionDiscount_h1{
+        margin: 14% 0px 0px 35%;
+    }
+    .SectionDiscount_Child4_child2 .SectionDiscount_h2{
+        margin: 1% 0px 0px 38%;
+    }
+    .SectionDiscount_Child4_child2 h3{
+        margin-left: 2%;
+    } 
+
+    .Destinations_main{
+        width: 90%;
+        height: 3000px;
+    } 
+    .Destinations_main_sub_Containter{
+        width: 100%;
+        margin: 6% auto;
+        display: grid;
+        grid-template-rows:400px 400px 400px 400px 400px 400px;
+        grid-template-columns: 80%; 
+        gap: 4%;
+    }
+    .Destinations_main_sub_Containter .card1{
+        grid-row: 1/2;
+        grid-column: 1/2;
+    }
+.Destinations_main_sub_Containter .card2{
+    grid-row: 2/3;
+    grid-column: 1/2;
+}
+.Destinations_main_sub_Containter .card3{
+    grid-row: 3/4;
+    grid-column: 1/2;
+}
+.Destinations_main_sub_Containter .card4{
+    grid-row: 4/5;
+    grid-column: 1/2;
+}
+.Destinations_main_sub_Containter .card5{
+    grid-row: 5/6;
+    grid-column:1/2;
+}
+.Destinations_main_sub_Containter .card6{
+    grid-row: 6/7;
+    grid-column: 1/2;
+}
+.div1_container_ul_bar{
+    margin:90% 0px 0px 70%;
+}
+.Card1_button{
+    width: 20%;
+    margin-top: -35%;
+}
+}
+@media (max-width:600px){
+    .div1_container_h1{
+        margin: 40% 0px 0px 10%;
+    } 
+    .Card1_button{
+        width: 20%;
+        margin-top: -45%;
+    }  
+}
+
+@media (max-width:500px){
+    .SectionDiscount_container{
+        height: 1700px;
+    }
+    .SectionDiscount_Child4_child1{
+        width: 83%;
+        height: 290px;
+    }
+    .SectionDiscount_Child4_child2{
+        height: 285px;
+    }
+    .SectionDiscount_Child4_child2 .SectionDiscount_h1{
+        margin: 18% 0px 0px 30%;
+    }
+    .SectionDiscount_Child4_child2 .SectionDiscount_h2{
+        margin: 2% 0px 0px 32%;
+    }
+    .SectionDiscount_Child4_child2 h3{
+        margin-left: 10%;
+    } 
+    .SectionTestimonials_container{
+        max-width:  130%;
+    }
+    .div1_container_ul_bar{
+        visibility: hidden;
+    }
+    .div1_container_h1{
+        margin: 60% 0px 0px 10%;
+    }
+    .Card1_button{
+        width: 25%;
+        margin-top: -50%;
+    }  
+}
+@media(max-width:400px){
+    .Card1_button{
+        width: 40%;
+        margin-top: -60%;
+    } 
+}
+
+@media (max-width:900px){
+    .div1_container_ul_bar{
+        margin:55% 0px 0px 75%;
+    }
+}
+@media (max-width:800px){
+    .div1_container_ul_bar{
+        margin:70% 0px 0px 75%;
+    }
+}

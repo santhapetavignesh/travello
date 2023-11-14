@@ -1,0 +1,84 @@
+.Service_container{
+    background-image: url("../Images/home_slider4.2.jpg");
+    background-repeat: no-repeat; 
+    background-size: cover;
+}
+.Service_container_box1{
+    width: 90%;
+    margin: 9% auto;  
+}
+.Service_container_box1 h2{
+    text-align: center; 
+    color: gray; 
+    font-size: 12px;
+    
+}
+.Service_container_box1 h1{
+    text-align: center;
+    font-size: 34px;  
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.Serivce_Ul_container_LeftSide{
+    width: 24%;
+    display: inline-flex;
+    gap: 6%;
+
+}
+.Serivce_Ul_container_leftSide_leftSide{
+        width: 47%;
+        display: block;
+        position: relative
+}
+.Serivce_Ul_container_leftSide_RightSide{
+        width: 47%;
+        display: block;
+        position: relative
+}
+.Serivce_Ul_container_leftSide_leftSide p{
+    width: 100%;
+    height: 30px;
+    display: inline-flex;
+    justify-content: space-between;
+    font-size: 13px;
+    font-weight: 600;
+    color: rgb(115, 113, 113);
+    padding: 5%;
+   background-color: #DDD;
+}
+.Serivce_Ul_container_leftSide_RightSide p{
+    width: 100%;
+    height: 30px;
+    display: inline-flex;  
+    padding: 5%;
+    font-size: 13px;
+    font-weight: 600;
+    color: rgb(115, 113, 113);
+    justify-content: space-between;
+    background-color: #DDD;
+} 
+.Serivce_Ul_container_leftSide_leftSide ul{
+    display: block;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    line-height: 35px;
+   background: whitesmoke;    
+}   
+
+.Serivce_Ul_container_leftSide_leftSide ul li{
+        width: 90%;
+        margin: 0% auto;
+        font-size: 12px;
+        font-weight: 600;
+} 
+.Serivce_Ul_container_leftSide_leftSide ul li:hover{
+    color: #7d7878;
+}
+.Serivce_Ul_container_leftSide_leftSide ul{
+    visibility: hidden;
+}
+.Serivce_Ul_container_leftSide_leftSide:hover ul{
+    visibility: visible;
+}
